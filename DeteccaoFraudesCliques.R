@@ -18,11 +18,8 @@
 
 ################ ETAPA 1: CARREGANDO O DATASET E IMPORTANDO BIBLIOTECAS NECESSÁRIAS ################
 
-dataset <- read.csv(file = "C:/Users/rafae/OneDrive/FilestoStudy/Formacao_Cientista_Dados/BigDataRAzure/Cap20_ProjetosComFeedback/DeteccaoFraudesCliquesPropagandaMobile/dataset/train_sample.csv",
+dataset <- read.csv(file = "File_Directory",
                   sep = ",")
-
-#dataset <- read.csv(file = "C:/Users/rafael.rampineli/OneDrive/FilestoStudy/Formacao_Cientista_Dados/BigDataRAzure/Cap20_ProjetosComFeedback/DeteccaoFraudesCliquesPropagandaMobile/dataset/train_sample.csv",
-#                  sep = ",")
 
 str(dataset)
 
